@@ -70,7 +70,8 @@ html {
   position: relative;
 }
 .card-text {
-  max-height: 400px;
+  max-height: calc(400px - 10%);
+  overflow: auto; /* or overflow: hidden; */
   width: 400px;
 }
 
