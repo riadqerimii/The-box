@@ -3,7 +3,13 @@ import PropTypes from "prop-types";
 
 const Navigation = ({ logo }) => {
   return (
-    <Navbar bg="white" expand="lg" variant="light" id="nav">
+    <Navbar
+      className="text-center"
+      bg="white"
+      expand="lg"
+      variant="light"
+      id="nav"
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img

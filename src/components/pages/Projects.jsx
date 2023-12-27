@@ -19,7 +19,7 @@ export default function Projects() {
   };
 
   const ProjectCard = ({ imgSrc, title, location }) => (
-    <div className="   col-md-4 col-sm-12   mb-2 p-2">
+    <div className="col-md-4 col-sm-12  d-flex justify-content-center  mb-2 p-2">
       <Card className="custom-card rounded-0">
         <Card.Img variant="top" src={imgSrc} className="card-image rounded-0" />
         <Card.Body className="bg-primary">
@@ -47,7 +47,7 @@ export default function Projects() {
 
     return (
       <div className="col-md-10 col-sm-12">
-        <div className="row">
+        <div className="row ">
           <ProjectCard
             imgSrc={image2}
             title="Wildstone Infra Hotel 4"
