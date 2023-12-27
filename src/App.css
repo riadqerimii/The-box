@@ -456,7 +456,6 @@ html {
 
 .free-text {
   color: rgba(255, 255, 255, 1);
-
   font-family: Work Sans;
   font-size: 36px;
   font-weight: 700;
@@ -485,6 +484,18 @@ html {
 .free-text-number:hover {
   color: rgb(181, 181, 181);
   transition: 0.8s;
+}
+
+@media screen and (max-width: 744px) {
+  .free-text {
+    font-size: 28px;
+  }
+  .free-text-p {
+    font-size: 18px;
+  }
+  .button-text {
+    justify-content: center;
+  }
 }
 
 .button-get {
@@ -534,6 +545,13 @@ html {
   line-height: 21px;
   color: rgba(194, 199, 214, 1);
 }
+.nav-items {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgb(8, 15, 36);
+}
 .subscribes {
   background-color: rgba(246, 248, 247, 1);
 }
@@ -576,4 +594,7 @@ html {
 }
 .icon-nav-footer a {
   text-decoration: none;
+}
+.custom-card img {
+  object-fit: cover;
 }

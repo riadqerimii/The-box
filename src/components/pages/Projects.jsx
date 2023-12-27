@@ -19,7 +19,7 @@ export default function Projects() {
   };
 
   const ProjectCard = ({ imgSrc, title, location }) => (
-    <div className="col-md-4 mb-2 p-2">
+    <div className="   col-md-4 col-sm-12   mb-2 p-2">
       <Card className="custom-card rounded-0">
         <Card.Img variant="top" src={imgSrc} className="card-image rounded-0" />
         <Card.Body className="bg-primary">
@@ -46,8 +46,8 @@ export default function Projects() {
     }
 
     return (
-      <div className="col-md-8">
-        <div className="row d-flex justify-content-around">
+      <div className="col-md-10 col-sm-12">
+        <div className="row">
           <ProjectCard
             imgSrc={image2}
             title="Wildstone Infra Hotel 4"
@@ -58,8 +58,6 @@ export default function Projects() {
             title="Wildstone Infra Hotel 4"
             location="2715 Ash Dr. San Jose, South Dakota"
           />
-        </div>
-        <div className="row d-flex justify-content-around">
           <ProjectCard
             imgSrc={image3}
             title="Mr. Parkinston’s House"
@@ -72,14 +70,6 @@ export default function Projects() {
             location="273517 W. Gray St. Utica, Pennsylvania"
           />
         </div>
-        <div className="col-8  w-100 d-flex justify-content-around pb-5 ">
-          <button className="  btn btn-dark px-5 p-3 btn-lg text-center rounded-0 ">
-            <span>&#8592; </span> Back
-          </button>
-          <button className="btn btn-lg btn-dark px-5 text-center rounded-0 ">
-            Next <span>&#8594; </span>
-          </button>
-        </div>
       </div>
     );
   };
@@ -89,8 +79,11 @@ export default function Projects() {
       <section id="projects" className="pb-4">
         <div className="container-fluid ">
           <h1 className="projects px-5 pt-5">Projects</h1>
-          <div className="row px-5">
-            <div className="nav-links col-md-4 p-3 mt-4 ">
+          <div className="row">
+            <div
+              className="nav-items col-md-2 col-sm-12
+               "
+            >
               <Nav.Link
                 className={`my-2 ${currentCategory === "All" && "active"}`}
                 onClick={() => handleCategoryChange("All")}
