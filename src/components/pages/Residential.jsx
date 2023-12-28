@@ -40,6 +40,7 @@ export default function Residential() {
             <Card.Img
               variant="top"
               src={image2}
+              alt="some-cards-there"
               className="card-image rounded-0"
             />
             <Card.Body className="bg-primary">
@@ -59,6 +60,7 @@ export default function Residential() {
             <Card.Img
               variant="top"
               src={image3}
+              alt="some-cards-there"
               className="card-image rounded-0"
             />
             <Card.Body className="bg-primary">
@@ -75,6 +77,7 @@ export default function Residential() {
           <Card className="custom-card rounded-0">
             <Card.Img
               variant="top"
+              alt="some-cards-there"
               src={image4}
               className="card-image rounded-0"
             />

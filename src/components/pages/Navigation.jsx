@@ -12,13 +12,7 @@ const Navigation = ({ logo }) => {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top m-1"
-            alt="Your Logo"
-          />
+          <img src={logo} className="logo-image " alt="Your Logo" />
           The Box
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -21,7 +21,12 @@ export default function Projects() {
   const ProjectCard = ({ imgSrc, title, location }) => (
     <div className="col-md-4 col-sm-12  d-flex justify-content-center  mb-2 p-2">
       <Card className="custom-card rounded-0">
-        <Card.Img variant="top" src={imgSrc} className="card-image rounded-0" />
+        <Card.Img
+          variant="top"
+          src={imgSrc}
+          className="card-image rounded-0"
+          alt="some-image"
+        />
         <Card.Body className="bg-primary">
           <Card.Title className="custom-card-title">{title}</Card.Title>
           <Card.Body className="custom-card-body">{location}</Card.Body>
@@ -51,20 +56,24 @@ export default function Projects() {
           <ProjectCard
             imgSrc={image2}
             title="Wildstone Infra Hotel 4"
+            alt="some-cards-there"
             location="2715 Ash Dr. San Jose, South Dakota"
           />
           <ProjectCard
             imgSrc={image1}
+            alt="some-cards-there"
             title="Wildstone Infra Hotel 4"
             location="2715 Ash Dr. San Jose, South Dakota"
           />
           <ProjectCard
             imgSrc={image3}
+            alt="some-cards-there"
             title="Mr. Parkinston’s House"
             location="273517 W. Gray St. Utica, Pennsylvania"
             k
           />
           <ProjectCard
+            alt="some-cards-there"
             imgSrc={image4}
             title="Mr. Parkinston’s House"
             location="273517 W. Gray St. Utica, Pennsylvania"

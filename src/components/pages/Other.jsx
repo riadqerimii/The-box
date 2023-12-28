@@ -12,6 +12,7 @@ export default function Other() {
             <Card.Img
               variant="top"
               src={image2}
+              alt="some-cards"
               className="card-image rounded-0"
             />
             <Card.Body className="bg-primary">
@@ -30,6 +31,7 @@ export default function Other() {
           <Card className="custom-card rounded-0">
             <Card.Img
               variant="top"
+              alt="some-cards-there"
               src={image3}
               className="card-image rounded-0"
             />
@@ -47,6 +49,7 @@ export default function Other() {
           <Card className="custom-card rounded-0">
             <Card.Img
               variant="top"
+              alt="some-cards-there"
               src={image4}
               className="card-image rounded-0"
             />

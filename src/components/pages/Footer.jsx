@@ -55,13 +55,13 @@ export default function Footers() {
             <h4 className="mb-2 pt-4 footer-contact">Social:</h4>
             <div className="d-flex pt-4 m-auto ">
               <a href="#" className="me-3  text-center">
-                <img src={fb} alt="" />
+                <img src={fb} alt="someone" />
               </a>
               <a href="#" className="me-3 text-center ">
-                <img src={linkedin} alt="" />
+                <img src={linkedin} alt="someone" />
               </a>
               <a href="#" className="text-center">
-                <img src={twitter} alt="" />
+                <img src={twitter} alt="someone-in-home" />
               </a>
             </div>
           </div>

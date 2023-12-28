@@ -17,6 +17,7 @@ html {
 * {
   box-sizing: border-box;
 }
+
 .button-fixed {
   border-radius: 50% !important;
   position: fixed;
@@ -64,7 +65,10 @@ html {
   object-fit: cover;
   background-size: cover;
 }
-
+.logo-image {
+  max-width: 100%;
+  height: auto;
+}
 .home-card {
   background-color: rgba(53, 89, 199, 1);
   position: relative;

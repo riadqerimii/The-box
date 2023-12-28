@@ -10,7 +10,12 @@ export default function Comercial() {
       <div className="row d-flex justify-content-around">
         <div className="col-md-4 mb-2 p-2">
           <Card className="custom-card rounded-0">
-            <Card.Img variant="top" src={image1} className="card-image" />
+            <Card.Img
+              variant="top"
+              src={image1}
+              className="card-image"
+              alt="some-cards"
+            />
             <Card.Body className="bg-primary">
               <Card.Title className="custom-card-title">
                 Wildstone Infra Hotel 1
@@ -27,6 +32,7 @@ export default function Comercial() {
               variant="top"
               src={image2}
               className="card-image rounded-0"
+              alt="some-cards"
             />
             <Card.Body className="bg-primary">
               <Card.Title className="custom-card-title">
@@ -44,6 +50,7 @@ export default function Comercial() {
           <Card className="custom-card rounded-0">
             <Card.Img
               variant="top"
+              alt="some-cards"
               src={image3}
               className="card-image rounded-0"
             />
@@ -61,6 +68,7 @@ export default function Comercial() {
           <Card className="custom-card rounded-0">
             <Card.Img
               variant="top"
+              alt="some-cards"
               src={image4}
               className="card-image rounded-0"
             />
